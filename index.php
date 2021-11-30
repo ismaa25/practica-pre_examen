@@ -11,7 +11,7 @@
     <div id="barra">
         <img class="mario" src="images/mario.jpeg" alt="mario">
         <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.0992532548385!2d-3.602084284250346!3d40.40665196417568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42255d3a247575%3A0xd8a0a40edf810cff!2sIES%20Villablanca!5e0!3m2!1ses!2ses!4v1638266010885!5m2!1ses!2ses" allowfullscreen="" loading="lazy"></iframe>
-    </div>
+    </>
     <h1 class="pizza">Personalizar Pizza</h1>
     <div id="formulario">
         <form action="procesar.php" method="post">
