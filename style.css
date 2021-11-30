@@ -1,0 +1,78 @@
+@font-face {
+    font-family: MarioBros;
+    src: url(fonts/SuperMarioBros.ttf);
+}
+
+@keyframes colores{
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  
+}
+.enviar{
+    width: 4em;
+    height: 2em;
+}
+.enviar:hover{
+    width: 5em;
+    height: 2em;
+    font-size: 14pt;
+    transition: width 2s, height 2s,  font-size 2s;
+    animation-name: colores;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+body{
+    font-family: MarioBros;
+    background-color: #cccccc;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.pizza{
+    margin-right: 300px;
+}
+
+.mario{
+    width: 200px;
+    margin-top: 3em;
+    border-radius: .8em;
+}
+
+.mapa{
+    width: 280px; 
+    height:230px;
+    border: 0;
+    border-radius: .8em;
+    margin-top: 4em;
+}
+
+#barra{
+    background-color: #384047;
+    position: fixed;
+    width: 300px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+form{
+    margin-right: 300px;
+}
+
+#formulario{
+    width: 60%; 
+    margin: 0 auto;
+}
+
+input{
+    padding: .2em;
+    border-radius: .4em;
+}
+
+fieldset{
+    margin: 1em;
+    border-radius: .4em;
+}
